@@ -1,0 +1,88 @@
+body{
+  background-color: grey;
+  font-family: 'Mirza', cursive;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  color:white;
+}
+
+button{
+  font-family: 'Mirza', cursive;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: left;
+  padding: 10px 10px;
+  margin-left: 15px;
+  color:white;
+  background-color: #00796B
+}
+
+.boxes-container{
+  display:flex;
+  flex-wrap: wrap;
+  width:70%;
+  height: 100vh;
+  float:left;
+  position: absolute;
+  line-height: 90px;
+  /*margin: auto;*/
+}
+
+.name{
+  font-size: 30px;
+}
+
+p{
+  margin-left: 15px;
+}
+.image-right-section{
+  height: 100vh;
+  float:right;
+  /*margin:auto;*/
+}
+
+.box{
+  height:300px;
+  width:300px;
+  text-align: center;
+  line-height: 320px;
+}
+
+.content-for-designer{
+  width: 600px;
+  text-align: left;
+  line-height: 75px;
+}
+
+.content-for-designer{
+  background-color: #00796B;
+}
+
+.profile{
+  background-color: #B2DFDB;
+}
+
+.experience{
+  background-color: #BDBDBD;
+}
+
+.education{
+background-color:  ##00BCD4;
+}
+
+.blog{
+  background-color: #BDBDBD;
+}
+
+.social-menu{
+  background-color: #009688;
+}
+
+.contact{
+  background-color: #B2DFDB;
+}
+
+.portfolio{
+  background-color: #00796B;
+}
