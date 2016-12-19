@@ -1,88 +1,148 @@
 body{
-  background-color: grey;
-  font-family: 'Mirza', cursive;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 20px;
+  font-family: 'Hammersmith One', sans-serif;
   color:white;
 }
 
-button{
-  font-family: 'Mirza', cursive;
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 100;
-  font-size: 20px;
-  text-align: left;
-  padding: 10px 10px;
-  margin-left: 15px;
-  color:white;
-  background-color: #00796B
-}
-
-.boxes-container{
-  display:flex;
+.left-page-container {
+  width:66.667%;
+  height: 100vh;
+  display: flex;
   flex-wrap: wrap;
-  width:70%;
-  height: 100vh;
-  float:left;
   position: absolute;
-  line-height: 90px;
-  /*margin: auto;*/
+  float: left;
 }
 
-.name{
-  font-size: 30px;
+.right-page-container {
+  width:34%;
+  height:100vh;
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  background: url("http://payload363.cargocollective.com/1/12/408102/9567041/PolygonArt_Zissou_Fin03_1000.png") no-repeat;
+  background-size: cover;
 }
 
-p{
-  margin-left: 15px;
-}
-.image-right-section{
-  height: 100vh;
-  float:right;
-  /*margin:auto;*/
+.profile-card-content {
+  height: 50%;
+  vertical-align: middle;
+  display: table-cell;
+  padding-left: 25px;
+  margin: auto;
+  line-height: 300%;
 }
 
-.box{
-  height:300px;
-  width:300px;
+h1{
+  font-size: 35px;
+}
+
+.profile-card {
+  height: 33.333%;
+  width:66.667%;
+  background-color: #F24D29;
+  display: table;
+}
+
+.card-content{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.card-content img{
+  -webkit-filter: invert(100%);
+  height: 15%;
+  width:15%;
+}
+
+.card{
+  width: 33.333%;
+  height: 33.333%;
+  text-transform: uppercase;
   text-align: center;
-  line-height: 320px;
+  display: table;
 }
 
-.content-for-designer{
-  width: 600px;
-  text-align: left;
-  line-height: 75px;
+button img {
+  -webkit-filter: invert(100%);
+  height:15%;
+  width:15%;
+  padding-right: 5px;
 }
 
-.content-for-designer{
-  background-color: #00796B;
+button {
+  background-color: #F24D29;
+  color:white;
+  height: 20%;
+  width:20%;
+  border: solid 2px white;
+  /*padding: 10px 25px;*/
+  text-align: center;
 }
 
 .profile{
-  background-color: #B2DFDB;
+  background-color: #1976D2;
 }
 
 .experience{
-  background-color: #BDBDBD;
+  background-color: #BBDEFB;
 }
 
 .education{
-background-color:  ##00BCD4;
+  background-color: #1C366B;
 }
 
 .blog{
-  background-color: #BDBDBD;
+  background-color: #BBDEFB;
 }
 
 .social-menu{
-  background-color: #009688;
+  background-color: #F24D29;
 }
 
 .contact{
-  background-color: #B2DFDB;
+  background-color: #C4CFD0;
 }
 
 .portfolio{
-  background-color: #00796B;
+  background-color: #F24D29;
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+
+  .profile-card {
+    width: 66.6666%;
+    height: 33.3333%;
+  }
+
+  .profile-card-content{
+  line-height: 150%;
+}
+
+  .card {
+    width: 33.3333%;
+    height: 33.3333%;
+  }
+
+  .card-content p{
+    display: none;
+  }
+
+  .right-page-container{
+    display: none;
+  }
+
+  .left-page-container{
+    width: 100%;
+  }
+
+  .button{
+    width:5%;
+    height:5%;
+  }
+
+  .text{
+    display: none;
+  }
 }
