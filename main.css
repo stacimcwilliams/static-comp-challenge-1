@@ -79,23 +79,23 @@ button {
 }
 
 .profile{
-  background-color: #1976D2;
+  background-color: #4290B4;
 }
 
 .experience{
-  background-color: #BBDEFB;
-}
-
-.education{
   background-color: #1C366B;
 }
 
+.education{
+  background-color: #f5f73d;
+}
+
 .blog{
-  background-color: #BBDEFB;
+  background-color: #1C366B;
 }
 
 .social-menu{
-  background-color: #F24D29;
+  background-color: #4290B4;
 }
 
 .contact{
